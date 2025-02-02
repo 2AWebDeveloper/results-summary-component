@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./styles/main.css" type="text/css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <script defer src="./scripts/main.js"></script>
+</head>
+<body>
+    <main>
+        <section class="flex items-start justify-center min-h-screen md:items-center">
+            <h1 class="hidden">Frontend Mentor | Results summary component</h1>
+            <div class="grid grid-cols-1 max-w-[736px] w-full bg-white shadow-2xl shadow-dark-gray-blue/25 overflow-hidden md:grid-cols-2 md:rounded-[30px]">
+                <!-- Left -->
+                <div class="flex flex-col items-center text-center bg-gradient-to-b from-light-slate-blue to-light-royal-blue py-11 pt-7 px-14 rounded-b-[30px] md:rounded-[30px] md:py-10">
+                    <h2 class="font-bold text-lg text-white/75 md:text-2xl">Your Result</h2>
+                    <div class="flex flex-col items-center justify-center h-[140px] w-[140px] rounded-full bg-gradient-to-b from-violet-blue to-persian-blue mt-6 mb-6 md:h-[200px] md:w-[200px] md:mt-8">
+                        <span class="font-extrabold text-[56px] text-white md:text-7xl">76</span>
+                        <span class="font-bold text-white/50 md:text-lg">of 100</span>
+                    </div>
+                    <span class="font-bold text-2xl text-white md:text-[32px]">Great</span>
+                    <p class="font-medium mt-2 leading-tight text-light-lavender/95 md:leading-tight md:text-lg md:mt-5">You scored higher than 65% of the people who have taken these tests.</p>
+                </div>
+                <!-- Right -->
+                <div class="flex flex-col px-8 py-7 md:px-10 md:py-10">
+                    <h2 class="font-bold text-lg text-dark-gray-blue md:text-2xl">Summary</h2>
+                    <div class="score-wrapper grid grid-cols-1 gap-4 mt-5 mb-8 md:mt-8 md:mb-10"></div>
+                    <button class="text-white bg-dark-gray-blue font-bold text-lg h-14 rounded-full hover:bg-gradient-to-b hover:from-light-slate-blue hover:to-light-royal-blue" type="button">Continue</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
